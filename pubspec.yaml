@@ -1,0 +1,45 @@
+name: ndl
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.8.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-Regular.ttf
+        - asset: fonts/Raleway-Italic.ttf
+          style: italic
+    - family: RobotoMono
+      fonts:
+        - asset: fonts/RobotoMono-Regular.ttf
+        - asset: fonts/RobotoMono-Bold.ttf
+          weight: 700
+    - family: KodeMono
+      fonts:
+        - asset: fonts/KodeMono-Bold.ttf 
+        - asset: fonts/KodeMono-Medium.ttf 
+        - asset: fonts/KodeMono-Regular.ttf 
+        - asset: fonts/KodeMono-SemiBold.ttf
+          weight: 700
+    - family: DancingScript
+      fonts:
+        - asset: fonts/DancingScript-Bold.ttf
+          weight: 700
+  uses-material-design: true
+
+
+
